@@ -179,7 +179,7 @@
     </div>
     <div class="home-content flex justify-start items-start flex-col gap-2">
         <h2 class="text-third-color font-semibold text-[20px] my-5"> تفاصيل الكتاب </h2>
-        <div class="d-flex align-items-start book_details gap-5">
+        <div class="d-flex align-items-start book_details gap-5 w-100">
           <div class="nav nav-pills me-3 flex justify-start flex-col items-start gap-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link active" id="v-pills-bookDetails-tab" data-bs-toggle="pill" data-bs-target="#v-pills-bookDetails" type="button" role="tab" aria-controls="v-pills-bookDetails" aria-selected="true">تفاصيل الكتاب</button>
             <button class="nav-link" id="v-pills-students-tab" data-bs-toggle="pill" data-bs-target="#v-pills-students" type="button" role="tab" aria-controls="v-pills-students" aria-selected="false">الطلاب</button>
@@ -253,12 +253,503 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="v-pills-students" role="tabpanel" aria-labelledby="v-pills-students-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="v-pills-duties" role="tabpanel" aria-labelledby="v-pills-duties-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="v-pills-exercises" role="tabpanel" aria-labelledby="v-pills-exercises-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="v-pills-exercises" role="tabpanel" aria-labelledby="v-pills-exercises-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="v-pills-bank" role="tabpanel" aria-labelledby="v-pills-bank-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="v-pills-material" role="tabpanel" aria-labelledby="v-pills-material-tab" tabindex="0">...</div>
+            <div class="tab-pane fade w-100 table_layout" id="v-pills-students" role="tabpanel" aria-labelledby="v-pills-students-tab" tabindex="0">
+              <table id="students" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>الاسم</th>
+                        <th>الصورة</th>
+                        <th>عدد الكتب </th>
+                        <th>الجامعة</th>
+                        <th>الكلية </th>
+                        <th>القسم</th>
+                        <th>الشعبة</th>
+                        <th>تاريخ الأنضمام</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 
+                            <a href="../students/student-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                أحمد يسري
+                            </a>
+                        </td>
+                        <td>
+                        <img src="../assets/images/avatar.png" alt="book" width="50" height="50">
+                        </td>
+                        <td>15 كتاب</td>
+                        <td> جده </td>
+                        <td> الطب </td>
+                        <td> الجراحة </td>
+                        <td> شعبة 1 </td>
+                        <td>27 - 11 - 2020</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="../students/student-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                أحمد يسري
+                            </a>
+                        </td>
+                        <td>
+                        <img src="../assets/images/avatar.png" alt="book" width="50" height="50">
+                        </td>
+                        <td>15 كتاب</td>
+                        <td> جده </td>
+                        <td> الطب </td>
+                        <td> الجراحة </td>
+                        <td> شعبة 1 </td>
+                        <td>27 - 11 - 2020</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="../students/student-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                أحمد يسري
+                            </a>
+                        </td>
+                        <td>
+                        <img src="../assets/images/avatar.png" alt="book" width="50" height="50">
+                        </td>
+                        <td>15 كتاب</td>
+                        <td> جده </td>
+                        <td> الطب </td>
+                        <td> الجراحة </td>
+                        <td> شعبة 1 </td>
+                        <td>27 - 11 - 2020</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="../students/student-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                أحمد يسري
+                            </a>
+                        </td>
+                        <td>
+                        <img src="../assets/images/avatar.png" alt="book" width="50" height="50">
+                        </td>
+                        <td>15 كتاب</td>
+                        <td> جده </td>
+                        <td> الطب </td>
+                        <td> الجراحة </td>
+                        <td> شعبة 1 </td>
+                        <td>27 - 11 - 2020</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="../students/student-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                أحمد يسري
+                            </a>
+                        </td>
+                        <td>
+                        <img src="../assets/images/avatar.png" alt="book" width="50" height="50">
+                        </td>
+                        <td>15 كتاب</td>
+                        <td> جده </td>
+                        <td> الطب </td>
+                        <td> الجراحة </td>
+                        <td> شعبة 1 </td>
+                        <td>27 - 11 - 2020</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="tab-pane fade w-100 table_layout" id="v-pills-duties" role="tabpanel" aria-labelledby="v-pills-duties-tab" tabindex="0">
+              <table id="exams" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>العنوان</th>
+                        <th>الكتاب</th>
+                        <th> الجامعة </th>
+                        <th> الكلية </th>
+                        <th> القسم </th>
+                        <th> الشعبة </th>
+                        <th> المدة </th>
+                        <th> تاريخ البداية </th>
+                        <th>تاريخ النهاية</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 
+                            <a href="./exam-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                اختبار 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exam-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                اختبار 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exam-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                اختبار 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exam-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                اختبار 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exam-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                اختبار 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exam-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                اختبار 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="tab-pane fade w-100 table_layout" id="v-pills-exercises" role="tabpanel" aria-labelledby="v-pills-exercises-tab" tabindex="0">
+              <table id="exercises" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>العنوان</th>
+                        <th>الكتاب</th>
+                        <th> الجامعة </th>
+                        <th> الكلية </th>
+                        <th> القسم </th>
+                        <th> الشعبة </th>
+                        <th> المدة </th>
+                        <th> تاريخ البداية </th>
+                        <th>تاريخ النهاية</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 
+                            <a href="./exrcise-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                تمرين 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exrcise-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                تمرين 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exrcise-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                تمرين 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exrcise-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                تمرين 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exrcise-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                تمرين 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./exrcise-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                تمرين 1
+                            </a>
+                        </td>
+                        <td>15 كتاب</td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> شعبة 1 </td>
+                        <td> 30 دقيقة </td>
+                        <td> 27 - 11 - 2020  </td>
+                        <td> 28 - 11 - 2020 </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="tab-pane fade w-100 table_layout" id="v-pills-bank" role="tabpanel" aria-labelledby="v-pills-bank-tab" tabindex="0">
+              <table id="bank" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>الكتاب</th>
+                        <th> الجامعة </th>
+                        <th> الكلية </th>
+                        <th> القسم </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 
+                            <a href="./bank-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                كتاب 1
+                            </a>
+                        </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./bank-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                كتاب 1
+                            </a>
+                        </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./bank-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                كتاب 1
+                            </a>
+                        </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./bank-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                كتاب 1
+                            </a>
+                        </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./bank-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                كتاب 1
+                            </a>
+                        </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./bank-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                كتاب 1
+                            </a>
+                        </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="tab-pane fade w-100 table_layout" id="v-pills-material" role="tabpanel" aria-labelledby="v-pills-material-tab" tabindex="0">
+              <table id="materials" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>الاسم</th>
+                        <th> الكتاب </th>
+                        <th> الجامعة </th>
+                        <th> الكلية </th>
+                        <th> القسم </th>
+                        <th> تاريخ الأنشاء </th>
+                        <th> تحميل </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 
+                            <a href="./material-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                مادة تفاعلية
+                            </a>
+                        </td>
+                        <td>كتاب 1  </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> 27 - 11 - 2020 </td>
+                        <td>
+                            <button> <img src="../assets/images/download.svg" alt=""> </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./material-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                مادة تفاعلية
+                            </a>
+                        </td>
+                        <td>كتاب 1  </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> 27 - 11 - 2020 </td>
+                        <td>
+                            <button> <img src="../assets/images/download.svg" alt=""> </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./material-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                مادة تفاعلية
+                            </a>
+                        </td>
+                        <td>كتاب 1  </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> 27 - 11 - 2020 </td>
+                        <td>
+                            <button> <img src="../assets/images/download.svg" alt=""> </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./material-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                مادة تفاعلية
+                            </a>
+                        </td>
+                        <td>كتاب 1  </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> 27 - 11 - 2020 </td>
+                        <td>
+                            <button> <img src="../assets/images/download.svg" alt=""> </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./material-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                مادة تفاعلية
+                            </a>
+                        </td>
+                        <td>كتاب 1  </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> 27 - 11 - 2020 </td>
+                        <td>
+                            <button> <img src="../assets/images/download.svg" alt=""> </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <a href="./material-details.html" class="!text-third-color font-semibold text-[15px]" style="color:#161439 ;">
+                                مادة تفاعلية
+                            </a>
+                        </td>
+                        <td>كتاب 1  </td>
+                        <td>جامعة جدة</td>
+                        <td> كلية الطب </td>
+                        <td> قسم الجراحة</td>
+                        <td> 27 - 11 - 2020 </td>
+                        <td>
+                            <button> <img src="../assets/images/download.svg" alt=""> </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
           </div>
         </div>
     </div>
@@ -283,7 +774,131 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
-
+   <script>
+    $(document).ready(function() {
+     
+        $('#students').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'excel', 'pdf'
+            ],
+            responsive: true,
+              
+            language: {
+                search: "_INPUT_",
+                searchPlaceholder: "بحث",
+                lengthMenu: "_MENU_",
+                paginate: {
+                first: "الأول",
+                last: "الأخير",
+                next: "التالي",
+                previous: "السابق",
+                },
+            },
+        });
+         
+    });
+</script>
+<script>
+  $(document).ready(function() {
+   
+      $('#exams').DataTable({
+          dom: 'Bfrtip',
+          buttons: [
+              'excel', 'pdf'
+          ],
+          responsive: true,
+            
+          language: {
+              search: "_INPUT_",
+              searchPlaceholder: "بحث",
+              lengthMenu: "_MENU_",
+              paginate: {
+              first: "الأول",
+              last: "الأخير",
+              next: "التالي",
+              previous: "السابق",
+              },
+          },
+      });
+       
+  });
+</script>
+<script>
+  $(document).ready(function() {
+   
+      $('#exercises').DataTable({
+          dom: 'Bfrtip',
+          buttons: [
+              'excel', 'pdf'
+          ],
+          responsive: true,
+            
+          language: {
+              search: "_INPUT_",
+              searchPlaceholder: "بحث",
+              lengthMenu: "_MENU_",
+              paginate: {
+              first: "الأول",
+              last: "الأخير",
+              next: "التالي",
+              previous: "السابق",
+              },
+          },
+      });
+       
+  });
+</script>
+<script>
+  $(document).ready(function() {
+   
+      $('#bank').DataTable({
+          dom: 'Bfrtip',
+          buttons: [
+              'excel', 'pdf'
+          ],
+          responsive: true,
+            
+          language: {
+              search: "_INPUT_",
+              searchPlaceholder: "بحث",
+              lengthMenu: "_MENU_",
+              paginate: {
+              first: "الأول",
+              last: "الأخير",
+              next: "التالي",
+              previous: "السابق",
+              },
+          },
+      });
+       
+  });
+</script>
+<script>
+  $(document).ready(function() {
+   
+      $('#materials').DataTable({
+          dom: 'Bfrtip',
+          buttons: [
+              'excel', 'pdf'
+          ],
+          responsive: true,
+            
+          language: {
+              search: "_INPUT_",
+              searchPlaceholder: "بحث",
+              lengthMenu: "_MENU_",
+              paginate: {
+              first: "الأول",
+              last: "الأخير",
+              next: "التالي",
+              previous: "السابق",
+              },
+          },
+      });
+       
+  });
+</script>
 </body>
 
 </html>
