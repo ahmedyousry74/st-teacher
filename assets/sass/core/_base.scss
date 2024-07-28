@@ -217,5 +217,34 @@ input[type="checkbox"]:checked {
 p {
     margin: 0 !important;
 }
-
-
+///////////
+.book_details{
+    @media(max-width: 767px){
+        flex-wrap: wrap;
+    }
+    .nav{
+        padding-inline-end: 25px;
+        border-inline-end: 1px solid #ccc;
+        @media(max-width: 767px){
+            border-inline-end: 0;
+        }
+        button{
+            background-color: $second-color;
+            color: $primary-color;
+            padding: 10px 15px;
+            border-radius: 6px;
+            width: 150px;
+            text-align: center;
+            &.active{
+                background-color: $primary-color;
+                color: #fff;
+            }
+            @media(max-width: 767px){
+                width: 100%;
+            }
+        }
+    }
+    .tab-content{
+        padding: 0 25px
+    }
+}
