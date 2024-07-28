@@ -218,20 +218,20 @@ p {
 }
 
 @media (max-width: 767px) {
-  .book_details {
+  .page_details {
     flex-wrap: wrap;
   }
 }
-.book_details .nav {
+.page_details .nav {
   padding-inline-end: 25px;
   border-inline-end: 1px solid #ccc;
 }
 @media (max-width: 767px) {
-  .book_details .nav {
+  .page_details .nav {
     border-inline-end: 0;
   }
 }
-.book_details .nav button {
+.page_details .nav button {
   background-color: #EFEEFE;
   color: #553DDD;
   padding: 10px 15px;
@@ -239,17 +239,21 @@ p {
   width: 150px;
   text-align: center;
 }
-.book_details .nav button.active {
+.page_details .nav button.active {
   background-color: #553DDD;
   color: #fff;
 }
 @media (max-width: 767px) {
-  .book_details .nav button {
+  .page_details .nav button {
     width: 100%;
   }
 }
-.book_details .tab-content {
+.page_details .tab-content {
   padding: 0 25px;
+}
+
+table td a {
+  font-size: 14px !important;
 }
 
 .sidebar {
