@@ -875,4 +875,12 @@ table.dataTable > thead > tr > th, table.dataTable > thead > tr > td {
 
 #lastStudent_filter input, #lastBook_filter input {
   display: none !important;
+}
+
+table thead th {
+  text-align: end !important;
+}
+
+.dataTables_wrapper {
+  overflow-x: scroll;
 }/*# sourceMappingURL=main.css.map */

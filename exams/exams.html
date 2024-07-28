@@ -311,14 +311,14 @@
    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
     <script>
         $(document).ready(function() {
-        var isSmallScreen = $(window).width() <= 500;
+         
             $('#exams').DataTable({
                 dom: 'Bfrtip',
                 buttons: [
                     'excel', 'pdf'
                 ],
                 responsive: true,
-                scrollX: true, 
+                  
                 language: {
                     search: "_INPUT_",
                     searchPlaceholder: "بحث",
@@ -331,11 +331,7 @@
                     },
                 },
             });
-            $(window).resize(function () {
-            if ($(window).width() <= 500) {
-                table.columns.adjust().draw();
-            }
-            });
+             
         });
     </script>
 </body>

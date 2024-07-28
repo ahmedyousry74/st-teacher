@@ -256,3 +256,14 @@ table.dataTable > thead > tr > th, table.dataTable > thead > tr > td {
         display: none !important;
     }
 }
+
+table{
+    thead{
+        th{
+            text-align: end !important;
+        }
+    }
+}
+.dataTables_wrapper{
+    overflow-x: scroll;
+}
