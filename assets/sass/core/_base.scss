@@ -371,7 +371,9 @@ table{
     box-shadow: 0;
     background-color: transparent;
   }
-  .form_auth button.submit_form {
+  .form_auth button.submit_form,
+  .form_auth a.submit_form
+   {
     background-color: $primary-color;
     border-radius: 4px;
     padding: 15px 10px;
@@ -380,6 +382,12 @@ table{
     width: 100%;
     border: 0;
     box-shadow: 0;
+    width: 100%;
+    margin: 25px 0;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .form_auth .have_account {
     display: flex;
