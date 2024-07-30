@@ -229,6 +229,9 @@ p {
 @media (max-width: 767px) {
   .page_details .nav {
     border-inline-end: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
   }
 }
 .page_details .nav button {
@@ -245,7 +248,8 @@ p {
 }
 @media (max-width: 767px) {
   .page_details .nav button {
-    width: 100%;
+    min-width: -moz-max-content;
+    min-width: max-content;
   }
 }
 .page_details .tab-content {

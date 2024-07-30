@@ -227,6 +227,9 @@ p {
         border-inline-end: 1px solid #ccc;
         @media(max-width: 767px){
             border-inline-end: 0;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
         }
         button{
             background-color: $second-color;
@@ -240,7 +243,7 @@ p {
                 color: #fff;
             }
             @media(max-width: 767px){
-                width: 100%;
+                min-width: max-content;
             }
         }
     }
