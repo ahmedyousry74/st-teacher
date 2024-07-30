@@ -39,3 +39,25 @@ document.addEventListener('DOMContentLoaded', function() {
         sidebar.classList.remove("close");
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var dropdownToggle = document.getElementById('dropdownMenuButton1');
+  var dropdownMenu = document.querySelector('.notification-menu');
+
+  dropdownToggle.addEventListener('click', function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    dropdownMenu.classList.toggle('show');
+  });
+
+  document.addEventListener('click', function (event) {
+    if (!dropdownToggle.contains(event.target)) {
+      dropdownMenu.classList.remove('show');
+    }
+  });
+
+  dropdownMenu.addEventListener('click', function (event) {
+    event.stopPropagation();
+  });
+});
