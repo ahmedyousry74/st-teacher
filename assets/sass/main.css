@@ -253,7 +253,7 @@ p {
   }
 }
 .page_details .tab-content {
-  padding: 0 25px;
+  padding: 0 0;
 }
 
 table td a {
@@ -505,12 +505,22 @@ table td a {
   opacity: 0;
 }
 
+.filter_items {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 @media (max-width: 991px) {
   .filter_items {
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     overflow-x: scroll;
     margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav.nav-pills {
+    margin-bottom: 25px !important;
   }
 }
 

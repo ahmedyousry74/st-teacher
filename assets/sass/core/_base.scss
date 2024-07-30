@@ -248,7 +248,7 @@ p {
         }
     }
     .tab-content{
-        padding: 0 25px
+        padding: 0 0
     }
 }
 table{
@@ -474,10 +474,17 @@ table{
   opacity: 0;
 }
 .filter_items{
+  flex-direction: row;
+  flex-wrap: nowrap;
   @media(max-width: 991px){
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     overflow-x: scroll;
     margin-bottom: 25px;
+  }
+}
+.nav.nav-pills{
+  @media(max-width: 767px){
+    margin-bottom: 25px !important ;
   }
 }
