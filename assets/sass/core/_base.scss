@@ -473,3 +473,11 @@ table{
 .dropdown-toggle::after {
   opacity: 0;
 }
+.filter_items{
+  @media(max-width: 991px){
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll;
+    margin-bottom: 25px;
+  }
+}

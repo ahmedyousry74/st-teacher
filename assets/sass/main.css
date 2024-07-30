@@ -505,6 +505,15 @@ table td a {
   opacity: 0;
 }
 
+@media (max-width: 991px) {
+  .filter_items {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll;
+    margin-bottom: 25px;
+  }
+}
+
 .sidebar {
   position: fixed;
   top: 0;
