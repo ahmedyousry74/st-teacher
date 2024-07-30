@@ -488,3 +488,63 @@ table{
     margin-bottom: 25px !important ;
   }
 }
+.__details {
+  p {
+      color: $primary-color;
+      font-size: 18px;
+      font-weight: 600;
+  }
+
+  span {
+      color: $fifth-color;
+      font-size: 15px;
+      font-weight: 500;
+  }
+}
+
+.tabs__form{
+  .nav-pills{
+    margin-bottom: 25px;
+    button{
+      color: $third-color !important;
+      &.active{
+        background-color: $primary-color !important;
+        color: #fff !important;
+      }
+    }
+  }
+}
+.list__questions {
+  .collapse {
+      visibility: visible !important;
+  }
+  h6 {
+      span {
+          margin-bottom: 20px !important;
+          line-height: 2;
+      }
+  }
+
+  p {
+      color: $third-color;
+      font-weight: 600;
+      font-size: 20px;
+
+      span {
+          color: $third-color;
+          font-weight: 600;
+          font-size: 20px;
+      }
+  }
+
+  span {
+      color: $fourth-color;
+      font-weight: 500;
+      font-size: 16px;
+
+      &.active {
+          color: $primary-color;
+          font-weight: 600;
+      }
+  }
+}

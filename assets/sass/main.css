@@ -524,6 +524,55 @@ table td a {
   }
 }
 
+.__details p {
+  color: #553DDD;
+  font-size: 18px;
+  font-weight: 600;
+}
+.__details span {
+  color: #ACAACC;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tabs__form .nav-pills {
+  margin-bottom: 25px;
+}
+.tabs__form .nav-pills button {
+  color: #161439 !important;
+}
+.tabs__form .nav-pills button.active {
+  background-color: #553DDD !important;
+  color: #fff !important;
+}
+
+.list__questions .collapse {
+  visibility: visible !important;
+}
+.list__questions h6 span {
+  margin-bottom: 20px !important;
+  line-height: 2;
+}
+.list__questions p {
+  color: #161439;
+  font-weight: 600;
+  font-size: 20px;
+}
+.list__questions p span {
+  color: #161439;
+  font-weight: 600;
+  font-size: 20px;
+}
+.list__questions span {
+  color: #6D6C80;
+  font-weight: 500;
+  font-size: 16px;
+}
+.list__questions span.active {
+  color: #553DDD;
+  font-weight: 600;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
