@@ -208,9 +208,9 @@ input:focus::-moz-placeholder {
 }
 
 input[type=checkbox]:checked {
-  background-color: #EFEEFE;
-  color: #EFEEFE;
-  border-color: #EFEEFE;
+  background-color: #553DDD;
+  color: #553DDD;
+  border-color: #553DDD;
 }
 
 p {
@@ -570,6 +570,151 @@ table td a {
 }
 .list__questions span.active {
   color: #553DDD;
+  font-weight: 600;
+}
+
+.add_exam_duty {
+  width: 100%;
+}
+.add_exam_duty .tab-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 250px;
+  padding: 30px 0;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .add_exam_duty .tab-status {
+    gap: 50px;
+  }
+}
+.add_exam_duty .tab-status .tab {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.add_exam_duty .tab-status .tab:before {
+  content: "";
+  position: absolute;
+  background: #f3f2f2;
+  height: 5px;
+  right: -299px;
+  width: 334px;
+  top: 13px;
+  border-radius: 2px;
+  z-index: 9;
+}
+@media (max-width: 767px) {
+  .add_exam_duty .tab-status .tab:before {
+    right: -84px;
+    width: 140px;
+  }
+}
+.add_exam_duty .tab-status .tab:first-child:before {
+  opacity: 0 !important;
+  display: none !important;
+}
+.add_exam_duty .tab-status .tab .title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #cbcaca;
+}
+.add_exam_duty .tab-status .tab .circle {
+  width: 32px;
+  height: 32px;
+  background: #EFEEFE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #EFEEFE;
+  z-index: 99999;
+  padding: 9px 3px;
+}
+.add_exam_duty .tab-status .tab img {
+  z-index: 999999999;
+  position: relative;
+}
+.add_exam_duty .tab-status .tab.active .circle {
+  background-color: #EFEEFE;
+}
+.add_exam_duty .tab-status .tab.active span {
+  color: #553DDD;
+}
+.add_exam_duty .tab-status .tab.active:before {
+  background: #553DDD;
+}
+.add_exam_duty .tab-list {
+  padding: 20px;
+}
+@media (max-width: 676px) {
+  .add_exam_duty .tab-list {
+    padding: 15px;
+  }
+}
+.add_exam_duty #prev__btn {
+  background: transparent;
+  border-radius: 99px;
+  border: 1px solid #050505;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #050505;
+  font-size: 15px;
+  font-weight: 500;
+  width: 250px;
+  max-width: 250px;
+}
+.add_exam_duty .continue__btn, .add_exam_duty .submit {
+  background-color: #EFEEFE;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 35px;
+  border: 1px solid #EFEEFE;
+  width: 300px;
+}
+.add_exam_duty .hidden {
+  display: none;
+}
+.add_exam_duty #exam__tab ul {
+  border: 0;
+  gap: 50px;
+}
+.add_exam_duty #exam__tab ul .nav-link {
+  background-color: transparent;
+  border: 1px solid #161439;
+  padding: 8px 25px;
+  color: #161439;
+  border-radius: 5px;
+}
+.add_exam_duty #exam__tab ul .nav-link svg {
+  margin: 0px 0 0 2px;
+}
+.add_exam_duty #exam__tab ul .nav-link.active {
+  background-color: #553DDD;
+  border-color: #553DDD;
+  color: #fff;
+}
+.add_exam_duty #exam__tab ul .nav-link.active svg, .add_exam_duty #exam__tab ul .nav-link.active path {
+  color: #fff !important;
+  stroke: #fff !important;
+  fill: #fff !important;
+}
+.add_exam_duty .input_form input, .add_exam_duty .input_form select {
+  height: 48px;
+}
+.add_exam_duty .form-control {
+  height: 48px;
+  direction: rtl;
+}
+.add_exam_duty .delete_question {
+  color: red;
+  margin: 15px 0;
   font-weight: 600;
 }
 
