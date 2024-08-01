@@ -718,6 +718,16 @@ table td a {
   font-weight: 600;
 }
 
+.adding__questions .delete_question, .list__questions .delete_question {
+  color: red;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.adding__questions .form-control, .list__questions .form-control {
+  height: 48px;
+  direction: rtl;
+}
+
 .file__zone {
   gap: 5px;
   position: relative;

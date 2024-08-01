@@ -700,6 +700,17 @@ table{
     font-weight: 600;
   }
 }
+.adding__questions,.list__questions{
+  .delete_question{
+    color: red;
+    margin: 15px 0;
+    font-weight: 600;
+  }
+  .form-control{
+    height: 48px;
+    direction: rtl;
+  }
+}
 .file__zone {
   gap: 5px;
   position: relative;
