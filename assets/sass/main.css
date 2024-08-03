@@ -874,8 +874,8 @@ hr {
   border-radius: 9px;
   position: relative;
   animation: fadeIn 1s ease-in;
-  width: -moz-max-content;
-  width: max-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .chat-bubble:after {
   content: "";

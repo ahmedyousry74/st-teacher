@@ -874,7 +874,7 @@ hr {
   border-radius: 9px;
   position: relative;
   animation: fadeIn 1s ease-in;
-  width: max-content;
+  width: fit-content;
   &:after {
     content: '';
     position: absolute;
